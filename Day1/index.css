@@ -1,0 +1,45 @@
+
+#bulb{
+    margin-top: 15%;
+    margin-left: 40%;
+}
+
+#bulb_off{
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    width: 7rem;
+    height: 2rem;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#bulb_off:hover{
+    background-color: black;
+    transition: 0.1s;
+}
+
+#bulb_on{
+    position: absolute;
+    top: 70%;
+    left: 52%;
+    width: 7rem;
+    height: 2rem;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#bulb_on:hover{
+    background-color: yellow;
+    transition: 0.1s;
+    color: black;
+}
+
+button{
+    border-radius: 1rem;
+    border: solid black 2px;
+}
