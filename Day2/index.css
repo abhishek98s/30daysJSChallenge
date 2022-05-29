@@ -1,0 +1,19 @@
+.title{
+    display: flex;
+    justify-content: center;
+    color: brown;
+}
+
+button{
+    position: absolute;
+    top: 48%;
+    left: 46%;
+    width: 10rem;
+    height: 4rem;
+    border: 1px solid blue;
+    border-radius: 3px;
+    background-color: transparent;
+    color: red;
+    font-size: 1.5rem;
+}
+
