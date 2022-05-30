@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 3 | 30 Days JS Challenge</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h2 id="Title">Enter Email= abc@xyz.com and Password= 123456789 for correct credentials.</h2>
+    <div class="container">
+    <form id="form"> 
+        <input type="email" name="email" id="email" placeholder="Enter Email" onblur=getEmail()>
+        <input type="password" name="password" id="password" placeholder="Password" onblur=getPassword()>
+        <button onclick=checkcredentials() type="button">Submit</button>
+    </form>
+</div>
+</body>
+<script src="index.js"></script>
+</html>
