@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.ssh_bps_cp {
+    position: absolute;
+}
+
+.ssh_bps_tt {
+    position: absolute;
+    color: white;
+    top: 30%;
+    left: 20%;
+    font-size: 600%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.ssh_bps_it {
+    position: absolute;
+    color: white;
+    top: 42%;
+    left: 20%;
+    font-size: 300%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.ssh_bps_it_km1 {
+    position: absolute;
+    top: 57%;
+    left: 20%;
+    background-color: transparent;
+
+}
+
+.ssh_bps_it_km_txt1 {
+    color: white;
+    font-size: 150%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 10px 10px 10px;
+    border: solid white 1px;
+    border-radius: 1px;
+}
+
+.w_w_d {
+    position: absolute;
+    top: 115%;
+    left: 20%;
+    font-size: 300%;
+    font-weight: bold;
+}
+
+.wwd_separator {
+    position: absolute;
+    top: 120%;
+    left: 18%;
+    text-align: center;
+    width: 70%;
+}
+
+.w_w_d_txt {
+    position: absolute;
+    top: 123%;
+    left: 43%;
+    font-size: 160%;
+}
+
+.ssh_bps_it_km2 {
+    position: absolute;
+    top: 130%;
+    left: 43%;
+    background-color: transparent;
+}
+
+.ssh_bps_it_km_txt2 {
+    color: black;
+    font-size: 150%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 7px 7px 7px 7px;
+    border: solid black 1px;
+    border-radius: 1px;
+}
+
+.container {
+    text-align: center;
+}
+
+.members_count {
+    position: absolute;
+    top: 150%;
+    left: 33%;
+}
+
+.mem_sep {
+    position: absolute;
+    top: 157%;
+    left: 30%;
+    width: 10%;
+}
+
+.mem_dt {
+    position: absolute;
+    top: 155%;
+    left: 30%;
+    font-size: 120%;
+}
+
+.carousel {
+    position: absolute;
+    top: 160%;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+#form {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 10rem;
+    height: 1.5rem;
+}
+
+h2 {
+    justify-content: center;
+    top: 15%;
+    display: none;
+}
+
+nav {
+    display: flex;
+}
+
+.collapse {
+    justify-content: center;
+}
+
+.contact-box {
+    max-width: 850px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+}
+
+.field {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    background-color: rgba(230, 230, 230, 0.6);
+    font-size: 1.1rem;
+    margin-bottom: 22px;
+    transition: .3s;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0);
+    height: 3rem;
+
+}
+
+.field:hover {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#submit {
+    text-align: center;
+    width: 100%;
+    padding: 0.4rem 1rem;
+    font-size: 1.1rem;
+    background-color: #2ecc71;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    transition: 0.3s;
+    color: #fff;
+}
+
+#submit:hover {
+    background-color: #27ae60;
+}
+
+.conatiner {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px 100px;
+}
