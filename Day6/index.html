@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 6 | 30 Days JS Challenge</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h1>Todo List</h1>
+    <div id="container">
+    <form>
+            <input id="name" type="text" name="title" placeholder="Title">
+            <input id="des" type="text" name="description" placeholder="Description">
+            <button id="button1" type="button" onclick=add()>Add</button>
+        </form>
+    </div>
+    <div class="table">
+    <table>
+        <tr>
+            <th>Title</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td id="todo_name"></td>
+            <td id="todo_des"></td>
+            <td><button id="edit" onclick=edit()>Edit</button></td>
+            <td><button id="del" onclick=del()>Delete</button></td>
+        </tr>
+    </table>
+</div>
+</body>
+<script src="index.js"></script>
+
+</html>
