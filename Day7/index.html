@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 6 || 30 Days JS Challenge</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+      <div id="duration"></div>
+    <div class="music">
+      <audio id="music" ontimeupdate=test()>
+        <source
+          src="music/0.mp3"
+          type="audio/mpeg"
+        />
+      </audio>
+      <button onfocus="color(this);" style='background-color:#FFA940' onclick="previousSong()">Previous</button>
+      <button onfocus="color(this);" style='background-color:#FAED2A' onclick="play()">Play</button>
+      <button onfocus="color(this);" style='background-color:#32DB7D' onclick="pause()">Pause</button>
+      <button onfocus="color(this);" style='background-color:#4464F2' onclick="volumeUp()">Volume Up</button>
+      <button onfocus="color(this);" style='background-color:#DB32A0' onclick="volumeDown()">Volume Down</button>
+      <button onfocus="color(this);" style='background-color:#FFA940' onclick="nextSong()">Next</button>
+    </div>
+  </body>
+  <script src="index.js"></script>
+  <script>
+    function test() {
+      var currentTime = document.getElementById("music").currentTime;
+      document.getElementById("duration").innerHTML = (currentTime)
+        .toFixed(0) + ' sec';
+      var duration = document.getElementById("music").duration;
+      document.getElementById("duration").innerHTML +=
+        " / " + (duration).toFixed(0) +' sec';
+    }
+  </script>
+  <script>
+      var count=0;
+  </script>
+</html>
