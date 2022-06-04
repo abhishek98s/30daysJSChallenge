@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WEBSITE NAME</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav">
+        <div class="left">WEBSITE NAME</div>
+        <div class="right">
+          <div class="navbar">
+            <a class="nav-link" id="home" href=""> Home</a>
+          </div>
+          <div class="navbar">
+            <a class="nav-link" id="about" href=""> About</a>
+          </div>
+          <div class="navbar">
+            <a class="nav-link" id="gallery" href=""> Gallery</a>
+          </div>
+          <div class="navbar">
+            <a class="nav-link" id="works" href=""> Works</a>
+          </div>
+          <div class="navbar">
+            <a class="nav-link" id="contact" href=""> Contact</a>
+          </div>
+        </div>
+        <div class="logo">
+          <img
+            id="logo"
+            src=""
+            alt=""
+          />
+        </div>
+        <div onclick="nav_list()" class="hamburger">
+          <img id="hamburger_menu" src="images/Hamburger_Menu.png" />
+        </div>
+        <div onclick="nav_close()" class="hamburger">
+          <img id="close_menu" src="images/Close_menu.png" />
+        </div>
+      </div>
+    </nav>
+    <div id="navbar_container">
+      <div class="nav_container">
+        <div class="navbar_list"><a class="nav-link" href=""> Home</a></div>
+        <div class="navbar_list"><a class="nav-link" href=""> About</a></div>
+        <div class="navbar_list"><a class="nav-link" href=""> Gallery</a></div>
+        <div class="navbar_list"><a class="nav-link" href=""> Works</a></div>
+        <div class="navbar_list"><a class="nav-link" href=""> Contact</a></div>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
