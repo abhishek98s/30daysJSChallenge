@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 9 | 30 Days JS Challenge</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="conatainer">
+        <div id="display">
+            <span id="input"> </span><br><br>
+            <span id="output">=</span>
+        </div>
+    </div>
+    <div class="calculator">
+        <div class="buttons">
+        <div class="row">
+            <div id="button1">
+                <button onclick="inp('1');">1</button>
+            </div>
+            <div id="button2">
+                <button onclick="inp('2');">2</button>
+            </div>
+            <div id="button3">
+                <button onclick="inp('3');">3</button>
+            </div>
+            <div id="button4">
+                <button onclick="inp('4');">4</button>
+            </div>
+            <div id="button5">
+                <button onclick="inp('5');">5</button>
+            </div>
+            <div id="button6">
+                <button onclick="inp('6');">6</button>
+            </div>
+            <div id="button7">
+                <button onclick="inp('7');">7</button>
+            </div>
+            <div id="button8">
+                <button onclick="inp('8');">8</button>
+            </div>
+            <div id="button9">
+                <button onclick="inp('9');">9</button>
+            </div>
+            <div id="button0">
+                <button onclick="inp('0');">0</button>
+            </div>
+            <div id="button%">
+                <button onclick="inp('%');">Mod</button>
+            </div>
+            <div id="button^">
+                <button onclick="inp('**');">Pow</button>
+            </div>
+            <div id="button+">
+                <button onclick="inp('+');">+</button>
+            </div>
+            <div id="button-">
+                <button onclick="inp('-');">-</button>
+            </div>
+            <div id="button*">
+                <button onclick="inp('*');">*</button>
+            </div>
+            <div id="button/">
+                <button onclick="inp('/');">/</button>
+            </div>
+            <div id="button=">
+                <button onclick=funcequal()>=</button>
+            </div>
+            <div id="buttonac">
+                <button onclick="funcAC(0);">AC</button>
+            </div>
+            <div id="buttonc">
+                <button onclick="funcAC(1);">C</button>
+            </div>
+            <div id="buttonm">
+                <button onclick="funcMemory();">Mem</button>
+            </div>
+            <div id="buttonr">
+                <button onclick="document.cookie='';">Reset</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+    <script src="index.js"></script>
+    <script>
+        var equal =0;
+        var sym=['+','-','*','/','=','%','^'];
+        for (let index = 0; index <10; index++) {
+            document.getElementById('button'+index).firstElementChild.style.backgroundColor="#658F7F";
+            
+        }
+        for (let index = 0; index <sym.length; index++) {
+            document.getElementById('button'+sym[index]).firstElementChild.style.backgroundColor="#C1E3D6";
+            document.getElementById('button'+sym[index]).firstElementChild.style.color="black";
+            
+        }
+        
+    </script>
+</html>
